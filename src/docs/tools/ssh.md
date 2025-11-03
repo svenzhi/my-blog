@@ -1,5 +1,5 @@
 ---
-title: ssh
+title: SSh
 icon: "mdi:ssh"
 date: 2022-11-10
 tag:
@@ -16,7 +16,7 @@ tag:
 
 ## 1. 安装
 ```powershell
-apt-get update # 更新软解列表
+apt-get update # 更新软件列表
 apt-get install openssh-client # 控制别的服务器用
 apt-get install openssh-server # 被别的机器控制用
 ```
