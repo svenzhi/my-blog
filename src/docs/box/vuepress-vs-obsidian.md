@@ -1,6 +1,7 @@
 ---
 author:
 title: VuePress 与 Obsidian 特性比对
+isOriginal: true
 date: 2025-11-04
 icon: streamline-ultimate-color:content-pen-write-2
 cover:

@@ -1,5 +1,6 @@
 ---
 title: 课程
+isOriginal: true
 icon: hugeicons:course
 date: 2025-11-04
 tag:

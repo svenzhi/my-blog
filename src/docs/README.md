@@ -1,5 +1,6 @@
 ---
 title: Docs
+isOriginal: true
 icon: weui:note-filled
 index: false
 ---
