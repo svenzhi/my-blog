@@ -19,5 +19,5 @@ features:
     link: https://github.com/svenzhi/tasty-memo
 
 # banner: /logo-cover.svg
-footer: 我救自己万万次，铮铮劲草，决不放弃 | 由 <a href="https://theme-hope.vuejs.press" target="_blank">VuePress Theme Hope</a> 驱动
+footer: 由 <a href="https://theme-hope.vuejs.press" target="_blank">VuePress Theme Hope</a> 驱动
 ---
