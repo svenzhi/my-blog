@@ -9,6 +9,11 @@ export default sidebar({
       link: "docs/README.md"
     },
     {
+      text: "书单",
+      icon: "ic:outline-book",
+      link: "docs/book-list.md"
+    },
+    {
       text: "课程",
       icon: "hugeicons:course",
       link: "docs/course-list.md"
