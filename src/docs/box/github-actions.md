@@ -1,12 +1,14 @@
 ---
 author:
-title: Github Actions部署vuepress
+title: Github Actions部署VuePress
 isOriginal: true
 date: 2025-11-05
 icon: logos:github-actions
 cover:
 order:
 tags:
+  - Github-Actions
+  - Github-Pages
 footer:
 copyright:
 sticky: false
@@ -27,6 +29,50 @@ imageNameKey: EAEKCCAKCOGOAM
 ![这张图片用来测试是否可行](../assets/EAEKCCAKCOGOAM-1.png)
 
 上图在本地md中的写法：
-```
+```md
 ![这张图片用来测试是否可行](../assets/EAEKCCAKCOGOAM-1.png)
+```
+
+经测试，该方法可行，最终代码为
+```yml
+name: 部署文档
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: 安装依赖
+        run: |
+          corepack enable
+          npm ci
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          wget -O /tmp/assets.zip https://domain.com/assets.zip
+          unzip -o /tmp/assets.zip -d src/docs/
+          npm run docs:build
+          > src/.vuepress/dist/.nojekyll
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 部署文档
+          branch: gh-pages
+          folder: src/.vuepress/dist
 ```
