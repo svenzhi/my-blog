@@ -49,7 +49,8 @@ imageNameKey: EAEKCCAICOAAIE
 > 效果对比
 > 左侧为VuePress Theme Hope，右侧为Obsidian。
 
-![](../assets/EAEKCCAICOAAIE-1.png)
+
+![](https://open-assets.itsven.cn/sven-docs/essay/EAEKCCAICOAAIE-1.png)
 
 ```
 > [!note]
