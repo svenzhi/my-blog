@@ -50,7 +50,7 @@ imageNameKey: EAEKCCAICOAAIE
 > 左侧为VuePress Theme Hope，右侧为Obsidian。
 
 
-![](https://open-assets.itsven.cn/sven-docs/essay/EAEKCCAICOAAIE-1.png)
+![](../assets/EAEKCCAICOAAIE-1.png)
 
 ```
 > [!note]
@@ -70,7 +70,7 @@ imageNameKey: EAEKCCAICOAAIE
 > Obsidian的标注还可以添加标题、折叠、嵌套以及自定义样式，也许后面我会尝试自定义一些Obsidian标注样式来实现VuePress Theme Hope存在，但Obsidian没有的样式或是统一二者交集样式。
 > 
 > 此外，对于Obsidian，除非使用[自定义标注](https://publish.obsidian.md/help-zh/%E7%BC%96%E8%BE%91%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96/%E6%A0%87%E6%B3%A8#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E6%B3%A8)，否则任何不支持的类型都会默认为`note`类型。
- 
+
  
 
 ## 图片缩放
