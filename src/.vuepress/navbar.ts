@@ -6,6 +6,7 @@ export default navbar([
   { text: "Blog", icon: "material-symbols-light:article-sharp", link: "/article/" },
   "/docs/",
   '/projects',
+  '/docs/website_navigation',
   {
     text: "Go",
     icon: "meteor-icons:link",
