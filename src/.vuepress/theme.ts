@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://docs.itsven.cn",
+  hostname: "https://blog.itsven.cn",
 
   author: {
     name: "itsven",
-    url: "https://docs.itsven.cn",
+    url: "https://blog.itsven.cn",
   },
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -45,7 +45,7 @@ export default hopeTheme({
       CSDN: { icon: "https://open-assets.itsven.cn/sven-docs/csdn_logo_round.svg", link: "https://blog.csdn.net/weixin_52341477"},
       GitHub: "https://github.com/svenzhi",
       Gitee: "https://gitee.com/svenzhi",
-      Email: "mailto:zhiweb@163.com",
+      Email: "mailto:itsven@163.com",
       // Gitlab: "https://example.com",
       // Gmail: "mailto:info@example.com",
       // Instagram: "https://example.com",
