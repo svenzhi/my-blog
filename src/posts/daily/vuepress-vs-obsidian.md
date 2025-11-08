@@ -6,6 +6,8 @@ date: 2025-11-04
 icon: streamline-ultimate-color:content-pen-write-2
 cover:
 order:
+category:
+  - daily
 tags:
   - 写作
   - Obsidian

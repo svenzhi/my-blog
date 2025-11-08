@@ -3,6 +3,8 @@ title: SSh
 isOriginal: true
 icon: "mdi:ssh"
 date: 2022-11-10
+category:
+  - docs
 tag:
   - Linux
   - Ubuntu

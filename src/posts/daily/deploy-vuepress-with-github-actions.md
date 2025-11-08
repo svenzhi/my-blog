@@ -6,9 +6,13 @@ date: 2025-11-05
 icon: logos:github-actions
 cover:
 order:
+category:
+  - daily
 tags:
   - Github-Actions
   - Github-Pages
+  - VuePress
+  - VuePress-Theme-Hope
 footer:
 copyright:
 sticky: false
