@@ -1,40 +1,59 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
+  "/":[
     {
-      text: "Docs",
-      icon: "weui:note-filled",
-      link: "docs/README.md"
+      text: "itsven's blog",
+      link: "/",
     },
     {
-      text: "书单",
-      icon: "ic:outline-book",
-      link: "docs/book-list.md"
+      text: "分类",
+      link: "/category/",
+      icon: "iconamoon:category",
     },
     {
-      text: "课程",
-      icon: "hugeicons:course",
-      link: "docs/course-list.md"
+      text: "标签",
+      link: "/tag/",
+      icon: "iconamoon:badge-light",
     },
     {
-      text: "收集箱",
-      icon: "icon-park:box",
-      prefix: "docs/box",
+      text: "归档",
+      link: "/article/",
+      icon: "mynaui:archive",
+    },
+    {
+      text: "星标文章",
+      link: "/star/",
+      icon: "mdi:star-outline",
+    },
+    {
+      text: "时间线",
+      link: "/timeline/",
+      icon: "streamline-freehand:business-workflow-project-management",
+    },
+    {
+      text: "关于",
+      link: "/about.html",
+      icon: "mdi:about-circle-outline",
+    },
+  ],
+  "/posts/": [
+    {
+      text: "Itsven blog",
+      prefix: "/",
+      link: "/posts/",
+    },
+    {
+      text: "日常",
+      prefix: "daily",
       children: "structure",
+      collapsible: true,
     },
     {
-      text: "工具",
-      icon: "icon-park:toolkit",
-      prefix: "docs/tools",
+      text: "文档",
+      prefix: "docs",
       children: "structure",
-    },
-    // "intro",
-    // {
-    //   text: "幻灯片",
-    //   icon: "person-chalkboard",
-    //   link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    // },
+      collapsible: true,
+    }
   ],
 });

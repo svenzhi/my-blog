@@ -2,11 +2,43 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  // "/demo/",
-  { text: "Blog", icon: "material-symbols-light:article-sharp", link: "/article/" },
-  "/docs/",
-  '/projects',
-  '/docs/website_navigation',
+  {
+    text: "博客",
+    icon: "streamline-ultimate:pen-write",
+    prefix: "/posts/",
+    children: [
+      {
+        text: "博文",
+        icon: "material-symbols-light:article-sharp",
+        prefix: "/category/",
+        link: "/posts/",
+        children: [
+          { text: "日常", icon: "arcticons:daily-you", link: "daily/" },
+          { text: "文档", icon: "solar:code-bold", link: "docs/" },
+        ],
+      },      
+    ],
+  },
+  {
+    text: "归档",
+    icon: "mynaui:archive",
+    link: "/article/",
+  },
+  {
+    text: "项目",
+    icon: "flat-color-icons:idea",
+    link: "/projects",
+  },
+  {
+    text: "站点",
+    icon: "streamline-freehand-color:website-development-monitor-www-web",
+    link: "/website-navigation",
+  },
+  {
+    text: "关于",
+    icon: "circle-info",
+    link: "/about.html",
+  },
   {
     text: "Go",
     icon: "meteor-icons:link",
@@ -17,7 +49,7 @@ export default navbar([
       { text: "阿里云", icon: "ant-design:aliyun-outlined", link: "https://home.console.aliyun.com/home/dashboard/ProductAndService" },
 
     ],
-  }
+  },
   // {
   //   text: "Docs",
   //   icon: "icon-park:toolkit",
