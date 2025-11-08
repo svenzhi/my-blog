@@ -5,24 +5,22 @@ export default navbar([
   {
     text: "博客",
     icon: "streamline-ultimate:pen-write",
-    prefix: "/posts/",
+    link: "/article/",
+  },
+  {
+    text: "分类",
+    icon: "iconamoon:category",
+    // prefix: "/posts/",
     children: [
-      {
-        text: "博文",
-        icon: "material-symbols-light:article-sharp",
-        prefix: "/category/",
-        link: "/posts/",
-        children: [
-          { text: "日常", icon: "arcticons:daily-you", link: "daily/" },
-          { text: "文档", icon: "solar:code-bold", link: "docs/" },
-        ],
-      },      
+      { text: "分类", icon: "iconamoon:category", link: "/category/" },
+      { text: "标签", icon: "iconamoon:badge-light", link: "/tag/" },
+      { text: "时间线", icon: "streamline-freehand:business-workflow-project-management", link: "/timeline/" },
     ],
   },
   {
     text: "归档",
     icon: "mynaui:archive",
-    link: "/article/",
+    link: "/posts/",
   },
   {
     text: "项目",

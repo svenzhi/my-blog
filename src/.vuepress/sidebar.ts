@@ -18,7 +18,7 @@ export default sidebar({
     },
     {
       text: "归档",
-      link: "/article/",
+      link: "/posts/",
       icon: "mynaui:archive",
     },
     {
