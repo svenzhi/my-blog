@@ -1,7 +1,7 @@
 ---
 home: true
 portfolio: true
-title: Home
+title: 首页
 icon: fluent-color:home-48
 welcome: ''
 name: itsven

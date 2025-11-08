@@ -1,7 +1,7 @@
 ---
 home: true
 icon: flat-color-icons:idea
-title: Projects
+title: 项目
 heroImage: /logo_round.jpg
 # heroText: 我的项目
 tagline: 开源项目
