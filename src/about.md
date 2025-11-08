@@ -2,6 +2,7 @@
 title: 关于本站
 article: false
 icon: circle-info
+description: "itsven（司文智 / Wenzhi Si / Svenzhi）搭建的个人知识与技术文档博客站点的关于页面，介绍本站的建立初衷与内容规划。"
 index: false
 ---
 
