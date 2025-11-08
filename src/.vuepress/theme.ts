@@ -33,7 +33,7 @@ export default hopeTheme({
   // 博客相关
   blog: {
     description: "Master's Student & AI Engineer",
-    // intro: "/intro.html",
+    intro: "/about.html",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",

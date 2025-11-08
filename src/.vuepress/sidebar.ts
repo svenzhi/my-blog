@@ -39,7 +39,7 @@ export default sidebar({
   ],
   "/posts/": [
     {
-      text: "Itsven blog",
+      text: "目录",
       prefix: "/",
       link: "/posts/",
     },
