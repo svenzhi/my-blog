@@ -1,6 +1,6 @@
 ---
 author:
-title: 2025阿里云ESA初试
+title: 2025阿里云ESA初试 VS Github Pages、Cloudflare Pages
 date: 2025-11-18
 icon:
 cover: /assets/posts/EAEKCCCQCEKKAE-cover.png
@@ -19,15 +19,6 @@ uid: EAEKCCCQCEKKAE
 imageNameKey: EAEKCCCQCEKKAE
 description: 本文分享使用阿里云 ESA（Edge Security Acceleration）的首次体验，包括边缘加速性能、DNS 行为、HTTPS 配置以及对 SEO 的影响。同时结合 blog.itsven.cn 的实际部署过程以及与Github Pages对比，提供适用于生产环境的站点防护实践建议。
 ---
-
-
-```
-国内、国际测速 与 GitHub对比
-
-与服务器直连对比，虽然差一点，但不用裸奔了，更安心
-
-HTTPS难易度
-```
 
 ## ESA初试
 
