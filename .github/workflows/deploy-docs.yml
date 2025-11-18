@@ -39,6 +39,8 @@ jobs:
         run: |-
           wget -O /tmp/assets.zip https://open-assets.itsven.cn/sven-docs/deploy-gh-pages/assets.zip
           unzip -o /tmp/assets.zip -d src/posts/
+          wget -O /tmp/posts.zip https://open-assets.itsven.cn/sven-docs/deploy-gh-pages/posts.zip
+          unzip -o /tmp/posts.zip -d src/.vuepress/public/assets/posts
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
 
