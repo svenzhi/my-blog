@@ -3,7 +3,7 @@ author:
 title: 2025阿里云ESA初试
 date: 2025-11-18
 icon:
-cover: /posts/assets/EAEKCCCQCEKKAE-cover.png
+cover: /assets/posts/EAEKCCCQCEKKAE-cover.png
 order:
 category:
   - daily
