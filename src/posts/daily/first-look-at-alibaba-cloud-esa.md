@@ -1,6 +1,6 @@
 ---
 author:
-title: 2025阿里云ESA初试 VS Github Pages、Cloudflare Pages
+title: 2025阿里云ESA初测
 date: 2025-11-18
 icon:
 cover: /assets/posts/EAEKCCCQCEKKAE-cover.png
@@ -22,7 +22,7 @@ description: 本文分享使用阿里云 ESA（Edge Security Acceleration）的�
 
 ## ESA初试
 
-本站最初使用Vuepress编译后，分别部署在Github Pages和Cloudflare Pages体验了一段视角，但由于主要面向国内使用，二者国内虽然能访问，但过于依赖网络环境，图片加载速度过慢，效果不佳。
+本站最初使用Vuepress编译后，分别部署在Github Pages和Cloudflare Pages体验了一段时间，但由于主要面向国内使用，二者国内虽然能访问，但过于依赖网络环境，图片加载速度过慢，效果不佳。
 
 直接放在我的服务器上，担心暴露IP，上CDN又太贵，担心被刷流量。一番搜索后发现国内腾讯云和阿里云都开始提供免费的边缘加速服务，由于是阿里云忠实用户~~路径依赖~~，在阿里云ESA交流群潜水了一番后，今天终于上手了。
 
