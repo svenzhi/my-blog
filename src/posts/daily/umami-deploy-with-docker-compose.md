@@ -8,7 +8,8 @@ order:
 category:
   - daily
 tags:
-  - Docker
+  - Umami
+  - Docker部署
 footer:
 copyright:
 sticky: false
