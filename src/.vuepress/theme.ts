@@ -44,7 +44,7 @@ export default hopeTheme({
       // Evernote: "https://example.com",
       // Facebook: "https://example.com"
       // Flipboard: "https://example.com",
-      CSDN: { icon: "https://open-assets.itsven.cn/sven-docs/csdn_logo_round.svg", link: "https://blog.csdn.net/weixin_52341477"},
+      CSDN: { icon: "https://open-assets.itsven.cn/cdn/sven-blog/csdn_logo_round.svg", link: "https://blog.csdn.net/weixin_52341477"},
       GitHub: "https://github.com/svenzhi",
       Gitee: "https://gitee.com/svenzhi",
       Email: "mailto:itsven@163.com",
