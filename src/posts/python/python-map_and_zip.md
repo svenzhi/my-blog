@@ -1,6 +1,6 @@
 ---
 author:
-title: Python函数 map、zip多参迭代对比
+title: Python：map、zip多参迭代对比
 date: 2025-12-24
 icon: "fluent-mdl2:compare"
 cover:
@@ -8,6 +8,7 @@ order:
 category:
   - daily
   - docs
+  - python
 tags:
   - Python
 footer:

@@ -54,6 +54,12 @@ export default sidebar({
       prefix: "docs",
       children: "structure",
       collapsible: true,
+    },
+    {
+      text: "Python",
+      prefix: "python",
+      children: "structure",
+      collapsible: true,
     }
   ],
   "/archive.html": [
@@ -71,6 +77,12 @@ export default sidebar({
     {
       text: "文档",
       prefix: "/posts/docs",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Python",
+      prefix: "/posts/python",
       children: "structure",
       collapsible: true,
     }

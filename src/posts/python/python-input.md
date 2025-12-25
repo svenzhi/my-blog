@@ -8,6 +8,7 @@ order:
 category:
   - daily
   - docs
+  - python
 tags:
   - python输入
 footer:
